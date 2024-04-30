@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 43,
+    "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "[Removed]"
+        },
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Yahoo Entertainment"
+        },
+        "author": "Reuters",
+        "title": "TSMC expects Q2 sales to jump on 'insatiable' AI demand - Yahoo Finance",
+        "description": "TAIPEI (Reuters) -Taiwanese chipmaker TSMC posted a 9% rise in first-quarter net profit on Thursday that beat market expectations as it rides a wave of...",
+        "url": "https://finance.yahoo.com/news/tsmc-set-report-5-rise-013137377.html",
+        "urlToImage": "https://media.zenfs.com/en/reuters-finance.com/1211712bef0d8edaf5e43a85bced3174",
+        "publishedAt": "2024-04-18T09:34:29Z",
+        "content": "TAIPEI (Reuters) -TSMC, the world's largest chipmaker and a major Apple and Nvidia supplier, forecast second-quarter sales may rise as much as 30% as it rides a wave of demand for semiconductors used… [+3962 chars]"
+      },
+      {
+        "source": {
+          "id": "business-insider",
+          "name": "Business Insider"
+        },
+        "author": "Ana Altchek, Meghan Morris",
+        "title": "Google fired 28 employees after in-office protests in California, NYC - Business Insider",
+        "description": "Nine Google workers were arrested during protests against the company's joint $1.2 billion contract with Israel.",
+        "url": "https://www.businessinsider.com/googlers-arrested-and-fired-israel-protest-project-nimbus-nyc-sunnyvale-2024-4",
+        "urlToImage": "https://i.insider.com/6620dcee20b15f0ff42902b6?width=1200&format=jpeg",
+        "publishedAt": "2024-04-18T07:19:00Z",
+        "content": "A small group of Alphabet employees' long-simmering protests against the Google parent company's work with Israel ended with more than two dozen terminations on Wednesday.\r\nGoogle fired 28 employees … [+4601 chars]"
+      },
+      {
+        "source": {
+          "id": "bloomberg",
+          "name": "Bloomberg"
+        },
+        "author": "Dana Hull",
+        "title": "Musk Apologizes for 'Incorrectly Low' Tesla Severance Packages - Bloomberg",
+        "description": "Elon Musk said some of the severance packages sent to former Tesla Inc. employees as part of its biggest-ever workforce reduction were too low.",
+        "url": "https://www.bloomberg.com/news/articles/2024-04-18/elon-musk-apologizes-for-incorrectly-low-tesla-severance-packages",
+        "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iVzy9U45FQ7Y/v0/1200x800.jpg",
+        "publishedAt": "2024-04-18T05:57:00Z",
+        "content": "Elon Musk said some of the severance packages sent to former Tesla Inc. employees as part of its biggest-ever workforce reduction were too low.\r\nAs we reorganize Tesla it has come to my attention tha… [+197 chars]"
+      },
+      {
+        "source": {
+          "id": "buzzfeed",
+          "name": "Buzzfeed"
+        },
+        "author": "Abby Kass",
+        "title": "62 Mother's Day Gifts You Can't Go Wrong With - BuzzFeed",
+        "description": "Perfect presents moms will love and appreciate.",
+        "url": "https://www.buzzfeed.com/abbykass/mothers-day-gifts-cant-go-wrong",
+        "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2024-04/15/20/enhanced/2ce501fbd709/original-684-1713213450-2.jpg?crop=1581:830;0,0%26downsize=1250:*",
+        "publishedAt": "2024-04-18T01:31:02Z",
+        "content": "I had the original Always Pan on my Christmas list back in 2020, and when I told my mom about it she said, \"Well, maybe I want one too.\" So, she got one for Christmas and has been using it ever since… [+1029 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph",
+        "title": "Bitcoin halving searches on Google is at its highest point ever - Cointelegraph",
+        "description": null,
+        "url": "https://cointelegraph.com/news/bitcoin-halving-google-trends-highest-point-ever",
+        "urlToImage": null,
+        "publishedAt": "2024-04-18T01:22:27Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "MarketWatch"
+        },
+        "author": "MarketWatch",
+        "title": "Google lays off more employees, will move some jobs overseas amid cost cuts - MarketWatch",
+        "description": null,
+        "url": "https://www.marketwatch.com/story/google-lays-off-more-employees-will-move-some-jobs-overseas-as-part-of-continuing-cost-cuts-c4109540",
+        "urlToImage": null,
+        "publishedAt": "2024-04-18T00:47:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "FOX 4 News"
+        },
+        "author": "FOX 4",
+        "title": "California duo arrested in Plano for alleged 'gift-card draining' scheme - FOX 4 News Dallas-Fort Worth",
+        "description": "Police say the scam involves criminals stealing unpurchased gift cards, getting their info and then resealing them to put back on store shelves. When someone buys a tampered card, the scammer then drains all of the money from the prepaid card.",
+        "url": "https://www.fox4news.com/news/xiaohong-zhang-xiongling-chen-gift-card-scan-arrest",
+        "urlToImage": "https://images.foxtv.com/static.fox4news.com/www.fox4news.com/content/uploads/2024/04/1280/720/plano-gift-card-scam-arrests.png?ve=1&tl=1",
+        "publishedAt": "2024-04-18T00:45:11Z",
+        "content": "PLANO, Texas - Two people were arrested in Plano for an alleged gift card scheme involving several North Texas stores.\r\nPlano police arrested Xiaohong Zhang and Xiongling Chen, both of California, la… [+1701 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Yahoo Entertainment"
+        },
+        "author": null,
+        "title": "Schumer says US will provide $6.1 billion to Micron Technology for chip plants in NY, Idaho - Yahoo Finance",
+        "description": null,
+        "url": "https://finance.yahoo.com/news/biden-administration-set-6-1-000141153.html",
+        "urlToImage": null,
+        "publishedAt": "2024-04-18T00:01:00Z",
+        "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CNBC"
+        },
+        "author": "Brian Evans",
+        "title": "Stock futures are little changed after S&P 500 posts a fourth losing day: Live updates - CNBC",
+        "description": "All three major indexes are coming off of a losing session.",
+        "url": "https://www.cnbc.com/2024/04/17/stock-market-today-live-updates.html",
+        "urlToImage": "https://image.cnbcfm.com/api/v1/image/107335042-17001503312023-11-16t155107z_186134607_rc2ee4a638ze_rtrmadp_0_usa-stocks.jpeg?v=1700150363&w=1920&h=1080",
+        "publishedAt": "2024-04-17T23:27:00Z",
+        "content": "Stock futures climbed Thursday morning after the S&amp;P 500 and the Nasdaq Composite logged a fourth straight day of losses.\r\nFutures tied to the S&amp;P 500 added 0.27%, while Nasdaq 100 futures ga… [+1657 chars]"
+      },
+      {
+        "source": {
+          "id": "bloomberg",
+          "name": "Bloomberg"
+        },
+        "author": "Yongchang Chin",
+        "title": "Latest Oil Prices, Market News and Analysis for April 18 - Bloomberg",
+        "description": "Oil held the largest decline in two months amid a slew of conflicting signals that ranged from rising stockpiles to tensions in the Middle East and the reimposition of US sanctions on Venezuelan crude.",
+        "url": "https://www.bloomberg.com/news/articles/2024-04-17/latest-oil-market-news-and-analysis-for-april-18",
+        "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iUICFCfHiFmc/v1/1200x800.jpg",
+        "publishedAt": "2024-04-17T23:20:52Z",
+        "content": "Oil held the largest decline in two months amid a slew of conflicting signals that ranged from rising stockpiles to tensions in the Middle East and the reimposition of US sanctions on Venezuelan crud… [+309 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "TheStreet"
+        },
+        "author": "Martin Baccardax",
+        "title": "No landing, no Fed rate cuts: the markets' new bet on 2024 - TheStreet",
+        "description": "Markets may be coming around to the idea that the red-hot U.S. economy doesn't need rate cuts.",
+        "url": "https://www.thestreet.com/investing/stocks/no-landing-and-no-fed-rate-cuts-the-markets-new-bet-on-2024",
+        "urlToImage": "https://www.thestreet.com/.image/ar_1.91%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_1200/MTk5NjU2NzkzMjcyNDkzNjk2/us-economy-federal-reserve-powell-swearing-in.jpg",
+        "publishedAt": "2024-04-17T23:17:48Z",
+        "content": "Federal Reserve Chairman Jerome Powell is tasked with a unique and sharply difficult challenge in American public life: talking about the success of the U.S. economy while simultaneously apologizing … [+6568 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "STAT"
+        },
+        "author": "Elaine Chen",
+        "title": "Zepbound effective in obstructive sleep apnea trials - STAT - STAT",
+        "description": "Eli Lilly reported Wednesday that the GLP-1 drug cut breathing interruptions in obese or overweight patients experiencing the condition.",
+        "url": "https://www.statnews.com/2024/04/17/eli-lilly-zepbound-eases-obstructive-sleep-apnea-in-trial/",
+        "urlToImage": "https://www.statnews.com/wp-content/uploads/2022/12/AdobeStock_522309218-1024x576.jpeg",
+        "publishedAt": "2024-04-17T21:58:35Z",
+        "content": "Eli Lilly reported positive results for its obesity drug Zepbound in obstructive sleep apnea, giving the medication a new edge in the highly competitive obesity market.\r\nThe results also pave the way… [+680 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Yahoo Entertainment"
+        },
+        "author": "Josh Lipton",
+        "title": "Netflix earnings, Fed comments, housing data: What to Watch - Yahoo Finance",
+        "description": "Many companies will release their latest earnings, including Taiwan Semiconductor Manufacturing Company (TSM), Netflix (NFLX), D.R. Horton (DHI.MX), and...",
+        "url": "https://finance.yahoo.com/video/netflix-earnings-fed-comments-housing-212046148.html",
+        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/WHxni4xQfjyQfC0uGZ.0Pg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://s.yimg.com/os/creatr-uploaded-images/2024-04/276749b0-fcfd-11ee-bf3b-6cad81cca888",
+        "publishedAt": "2024-04-17T21:20:46Z",
+        "content": "Many companies will release their latest earnings, including Taiwan Semiconductor Manufacturing Company (TSM), Netflix (NFLX), D.R. Horton (DHI.MX), and Nokia (NOK).\r\nMultiple leaders from the Federa… [+1678 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "[Removed]"
+        },
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Fox Business"
+        },
+        "author": "Eric Revell",
+        "title": "United said it lost $200 million from the temporary grounding of the Boeing 737 Max 9 - Fox Business",
+        "description": "United Airlines noted in its latest earnings report released this week that the temporary grounding of the Boeing 737 Max 9 in January cost the company about $200 million in losses.",
+        "url": "https://www.foxbusiness.com/markets/united-said-it-lost-200-million-temporary-grounding-boeing-737-max-9",
+        "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2024/04/0/0/United-Airlines-Boeing-737-Max-9.jpg?ve=1&tl=1",
+        "publishedAt": "2024-04-17T21:01:00Z",
+        "content": "United Airlines\r\n released its first quarter earnings on Tuesday in which it indicated that it lost about $200 million due to the temporary grounding of the Boeing 737 Max 9 earlier this year.\r\nThe C… [+4223 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "MyNorthwest.com"
+        },
+        "author": ", KIRO Newsradio staff",
+        "title": "Alaska Airlines grounded after FAA advisory - MyNorthwest",
+        "description": "The Federal Aviation Administration (FAA) has issued a \"ground stop \" advisory for Alaska Airlines, Reuters reported Wednesday.",
+        "url": "https://mynorthwest.com/3957726/faa-issues-ground-stop-advisory-for-alaska-airlines/",
+        "urlToImage": "https://mynorthwest.com/wp-content/uploads/2023/08/Alaska-edited--scaled-e1692202578902.jpg",
+        "publishedAt": "2024-04-17T20:40:46Z",
+        "content": "The Federal Aviation Administration (FAA) grounded Alaska Airlines aircraft for about an hour Wednesday morning.\r\n“All Alaska mainline and subcarrier flights ground stopped,” the FAA said around 7:40… [+2388 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "New York Post"
+        },
+        "author": "Alexandra Klausner",
+        "title": "Popular snacks could be banned in certain states over cancer fears - New York Post ",
+        "description": "Now this is a cereal killer. Some of Americans’ favorite snacks and classic candies could be banned in several states due to cancer-causing chemicals in their ingredients.  These foods include…",
+        "url": "https://nypost.com/2024/04/17/lifestyle/these-popular-snack-foods-could-be-banned-in-certain-states/",
+        "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/04/food-dye.jpg?quality=75&strip=all&w=1024",
+        "publishedAt": "2024-04-17T20:38:00Z",
+        "content": "Now this is a cereal killer.\r\nSome of Americans favorite snacks and classic candies could be banned in several states due to cancer-causing chemicals in their ingredients. \r\nThese foods include cerea… [+3211 chars]"
+      },
+      {
+        "source": {
+          "id": "associated-press",
+          "name": "Associated Press"
+        },
+        "author": "TOM KRISHER, MICHELLE CHAPMAN, STAN CHOE",
+        "title": "Tesla asks shareholders to reinstate Elon Musk's $56 billion pay package - The Associated Press",
+        "description": "Tesla is asking shareholders to restore a $56 billion pay package for CEO Elon Musk that was rejected by a Delaware judge this year, and to shift the company’s corporate home to Texas. Stockholders will vote on the changes at a June 13 annual meeting. The pro…",
+        "url": "https://apnews.com/article/musk-pay-compensation-corporate-registration-ef5e30f6b56f7d936f8c882fc1c96875",
+        "urlToImage": "https://dims.apnews.com/dims4/default/7bc8936/2147483647/strip/true/crop/2961x1666+0+167/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F60%2F30%2Fb5478ccf3058ceed9e8f961d399e%2Fa3f014d8966e4711baf2401ca29e7f70",
+        "publishedAt": "2024-04-17T20:08:00Z",
+        "content": "DETROIT (AP) Tesla is asking shareholders to restore a $56 billion pay package for CEO Elon Musk that was rejected by a Delaware judge this year, and to shift the companys corporate home to Texas.\r\nT… [+6999 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "The Athletic"
+        },
+        "author": "Evan Drellich",
+        "title": "Diamond Sports pushed forward on restructuring plan, as MLB casts a skeptical eye - The Athletic",
+        "description": "Diamond took its plans for its Bally-branded RSNs before a judge Wednesday in the hopes of moving its proposal forward.",
+        "url": "https://theathletic.com/5423683/2024/04/17/diamond-bally-restructuring-plan-mlb/",
+        "urlToImage": "https://cdn.theathletic.com/app/uploads/2023/04/12120753/GettyImages-1481490948.jpg",
+        "publishedAt": "2024-04-17T19:23:52Z",
+        "content": "Major League Baseball continues to cast a skeptical eye toward Diamond Sports Groups long-term health and the viability of its plan to emerge from bankruptcy. But if any additional fireworks are comi… [+4536 chars]"
+      }
+    ]
+  }
