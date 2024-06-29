@@ -1,88 +1,72 @@
 import React, { Component } from 'react';
 import Newsitem from './Newsitem';
 import Spinner from './Spinner';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 class NewsComponent extends Component {
-  static defaultProps=
-  {
-    country:'us',
-    category:"general"
-  }
-  static propTypes=
-  {
-    country:PropTypes.string,
-    category:PropTypes.string,
-  }
+  static defaultProps = {
+    country: 'us',
+    category: 'general'
+  };
+
+  static propTypes = {
+    country: PropTypes.string,
+    category: PropTypes.string
+  };
+
   constructor(props) {
     super(props);
 
     this.state = {
-      articles: [], // Initialize articles as an empty array
+      articles: [],
       loading: false,
-      page: 1 // Initialize page number
+      page: 1
     };
   }
 
-  Previous = async () => {
-    this.setState({loading:true});
-    // Decrement page number
+  fetchNews = async (page) => {
+    this.setState({ loading: true });
+    const { country, category } = this.props;
+
+    let url = `http://localhost:5000/news?country=${country}&category=${category}&page=${page}`;
+    let data = await fetch(url);
+    let parsedData = await data.json();
+
+    this.setState({
+      articles: parsedData.articles,
+      page,
+      loading: false
+    });
+  };
+
+  Previous = () => {
     let newPage = this.state.page - 1;
-
-    // Fetch data for the previous page
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=d542a80b32cf4d2a949879f21bf28653&page=${newPage}`;
-    let data = await fetch(url);
-    let parsedData = await data.json();
-
-    // Update state with new articles and page number
-    this.setState({
-      articles: parsedData.articles,
-      page: newPage,
-      loading:false
-    });
+    this.fetchNews(newPage);
   };
-  
-  Next = async () => {
-    this.setState({loading:true})
-    // Increment page number
+
+  Next = () => {
     let newPage = this.state.page + 1;
-
-    // Fetch data for the next page
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=d542a80b32cf4d2a949879f21bf28653&page=${newPage}`;
-    let data = await fetch(url);
-    let parsedData = await data.json();
-
-    // Update state with new articles and page number
-    this.setState({
-      articles: parsedData.articles,
-      page: newPage,
-      loading:false
-    });
+    this.fetchNews(newPage);
   };
 
-  async componentDidMount(){
-    this.setState({loading:true})
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=d542a80b32cf4d2a949879f21bf28653`
-    let data = await fetch(url);
-    let parsedData = await data.json();
-   
-    this.setState({ articles: parsedData.articles,loading:false});
+  componentDidMount() {
+    this.fetchNews(this.state.page);
   }
 
   render() {
-    const { articles, page,loading } = this.state;
+    const { articles, page, loading } = this.state;
     const isPreviousDisabled = page <= 1;
-    const isNextDisabled = articles.length === 0 || articles.length < 20; // Assuming each page shows 20 articles
+    const isNextDisabled = articles.length === 0 || articles.length < 20;
 
     return (
       <div className='container my-3'>
-       <div className='text-center'> {loading&&<Spinner></Spinner>}</div>
+        <div className='text-center'>{loading && <Spinner />}</div>
         <div className='row'>
           {articles.map((element, index) => (
             <div className='col-md-4' key={index}>
-              <Newsitem  
-                title={element.title} 
-                description={element.description} 
+              <Newsitem
+                title={element.title}
+                description={element.description}
                 imageUrl={element.urlToImage}
                 newsurl={element.url}
               />
