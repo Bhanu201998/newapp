@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'eact';
 import Newsitem from './Newsitem';
 import Spinner from './Spinner';
 import PropTypes from 'prop-types';
@@ -27,24 +27,28 @@ class NewsComponent extends Component {
   fetchNews = async (page) => {
     this.setState({ loading: true });
     const { country, category } = this.props;
-
-    let url = `http://localhost:5000/news?country=${country}&category=${category}&page=${page}`;
-    let data = await fetch(url);
-    let parsedData = await data.json();
-
-    this.setState({
-      articles: parsedData.articles,
-      page,
-      loading: false
-    });
+    const apiKey = 'd542a80b32cf4d2a949879f21bf28653';
+    const url = `https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&page=${page}&apiKey=${apiKey}`;
+    try {
+      const response = await fetch(url);
+      const data = await response.json();
+      this.setState({
+        articles: data.articles,
+        page,
+        loading: false
+      });
+    } catch (error) {
+      console.error(error);
+      this.setState({ loading: false });
+    }
   };
 
-  Previous = () => {
+  handlePrevious = () => {
     let newPage = this.state.page - 1;
     this.fetchNews(newPage);
   };
 
-  Next = () => {
+  handleNext = () => {
     let newPage = this.state.page + 1;
     this.fetchNews(newPage);
   };
@@ -74,8 +78,8 @@ class NewsComponent extends Component {
           ))}
         </div>
         <div className="d-flex justify-content-between">
-          <button disabled={isPreviousDisabled} type="button" className="btn btn-dark" onClick={this.Previous}>Previous</button>
-          <button disabled={isNextDisabled} type="button" className="btn btn-dark" onClick={this.Next}>Next</button>
+          <button disabled={isPreviousDisabled} type="button" className="btn btn-dark" onClick={this.handlePrevious}>Previous</button>
+          <button disabled={isNextDisabled} type="button" className="btn btn-dark" onClick={this.handleNext}>Next</button>
         </div>
       </div>
     );
